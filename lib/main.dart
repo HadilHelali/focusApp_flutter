@@ -1,4 +1,3 @@
-import 'package:example/Chart.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +13,9 @@ void main() {
           color: Colors.black,
         ),
         child: Center(
-          child: Chart(),
+          child: Text(
+              'hello',
+            ),
         ),
         ),
 
