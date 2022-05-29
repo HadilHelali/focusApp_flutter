@@ -29,17 +29,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  liquid_swipe: ^2.1.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   google_fonts: ^2.2.0
+  tab_indicator_styler: ^2.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -56,6 +56,8 @@ flutter:
    - assets/Screen2/Illustration.png
    - assets/Screen2/Oval1.png
    - assets/Screen2/Oval2.png
+   - assets/Accueil/
+   - assets/
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -78,6 +80,42 @@ flutter:
    - family: Urbanist
      fonts:
         - asset: fonts/Urbanist-VariableFont_wght.ttf
-
+   - family: Billy
+     fonts:
+        - asset: fonts/font.ttf
+   - family: Spartan
+     fonts:
+        - asset: fonts/Spartan-Regular.ttf
+        - asset: fonts/Spartan-ExtraLight.ttf
+          weight: 300
+        - asset: fonts/Spartan-Light.ttf
+          weight: 400
+        - asset: fonts/Spartan-Thin.ttf
+          weight: 500
+        - asset: fonts/Spartan-Medium.ttf
+          weight: 600
+        - asset: fonts/Spartan-SemiBold.ttf
+          weight: 700
+        - asset: fonts/Spartan-Bold.ttf
+          weight: 800
+        - asset: fonts/Spartan-ExtraBold.ttf
+          weight: 900
+   - family: Urbanist
+     fonts:
+         - asset: fonts/Urbanist-Regular.ttf
+         - asset: fonts/Urbanist-ExtraLight.ttf
+           weight: 300
+         - asset: fonts/Urbanist-Light.ttf
+           weight: 400
+         - asset: fonts/Urbanist-Thin.ttf
+           weight: 500
+         - asset: fonts/Urbanist-Medium.ttf
+           weight: 600
+         - asset: fonts/Urbanist-SemiBold.ttf
+           weight: 700
+         - asset: fonts/Urbanist-Bold.ttf
+           weight: 800
+         - asset: fonts/Urbanist-ExtraBold.ttf
+           weight: 900
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

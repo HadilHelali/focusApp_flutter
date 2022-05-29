@@ -1,3 +1,4 @@
+import 'package:example/screen5/Chart.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -40,7 +41,8 @@ class Screen2 extends StatelessWidget {
                     style: GoogleFonts.spartan(
                         color: Colors.white,
                         fontWeight: FontWeight.w700,
-                        fontSize: 32)))
+                        fontSize: 32))),
+
           ],
         ))));
   }
